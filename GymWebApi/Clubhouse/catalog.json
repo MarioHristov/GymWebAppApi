@@ -1,0 +1,392 @@
+{
+  "clubs": [
+    {
+      "id": "PeyoYavorov",
+      "name": "Peyo Yavorov",
+      "address": "12 Tsarigradsko Shose Blvd",
+      "lat": 42.6827875,
+      "lng": 23.3503964,
+      "hours": "Weekdays 06:30–22:00 · Weekends 08:00–20:00",
+      "about": "Rings, parallel bars and an open training floor.",
+      "facilities": [
+        "Rings and bars",
+        "Lockers",
+        "Wi-Fi"
+      ]
+    },
+    {
+      "id": "DryRiver",
+      "name": "Dry River",
+      "address": "24 Vladimir Vazov Blvd",
+      "lat": 42.7010813,
+      "lng": 23.3655703,
+      "hours": "Weekdays 07:00–22:00 · Weekends 09:00–19:00",
+      "about": "A neighborhood strength club with room for heavy lifts.",
+      "facilities": [
+        "Lifting platforms",
+        "Lockers",
+        "Wi-Fi"
+      ]
+    },
+    {
+      "id": "NDK",
+      "name": "NDK",
+      "address": "8 Bulgaria Blvd",
+      "lat": 42.6841293,
+      "lng": 23.3188547,
+      "hours": "Weekdays 06:30–22:00 · Weekends 08:00–20:00",
+      "about": "A central studio for mobility and strength sessions.",
+      "facilities": [
+        "Mobility studio",
+        "Lockers",
+        "Wi-Fi"
+      ]
+    },
+    {
+      "id": "Mladost",
+      "name": "Mladost",
+      "address": "18 Aleksandar Malinov Blvd",
+      "lat": 42.6397091,
+      "lng": 23.3777622,
+      "hours": "Weekdays 07:00–22:00 · Weekends 09:00–19:00",
+      "about": "A circuit floor with space for intervals and small groups.",
+      "facilities": [
+        "Conditioning track",
+        "Lockers",
+        "Wi-Fi"
+      ]
+    },
+    {
+      "id": "Lulin",
+      "name": "Lulin",
+      "address": "35 Tsaritsa Yoanna Blvd",
+      "lat": 42.7147863,
+      "lng": 23.2578887,
+      "hours": "Weekdays 06:30–22:00 · Weekends 08:00–20:00",
+      "about": "A west Sofia club built around coached barbell training.",
+      "facilities": [
+        "Squat racks",
+        "Lockers",
+        "Wi-Fi"
+      ]
+    },
+    {
+      "id": "ManastirskiLivadi",
+      "name": "Manastirski Livadi",
+      "address": "16 Todor Kableshkov St",
+      "lat": 42.6589368,
+      "lng": 23.285673,
+      "hours": "Weekdays 07:00–22:00 · Weekends 09:00–19:00",
+      "about": "A quiet studio combining guided movement and recovery.",
+      "facilities": [
+        "Yoga studio",
+        "Lockers",
+        "Wi-Fi"
+      ]
+    }
+  ],
+  "trainers": [
+    {
+      "id": "mira-ivanova",
+      "name": "Mira Ivanova",
+      "clubId": "PeyoYavorov",
+      "specialty": "Calisthenics"
+    },
+    {
+      "id": "stefan-petrov",
+      "name": "Stefan Petrov",
+      "clubId": "DryRiver",
+      "specialty": "Strength"
+    },
+    {
+      "id": "elena-georgieva",
+      "name": "Elena Georgieva",
+      "clubId": "NDK",
+      "specialty": "Mobility"
+    },
+    {
+      "id": "viktor-kolev",
+      "name": "Viktor Kolev",
+      "clubId": "Mladost",
+      "specialty": "Conditioning"
+    },
+    {
+      "id": "nia-dimitrova",
+      "name": "Nia Dimitrova",
+      "clubId": "Lulin",
+      "specialty": "Powerlifting"
+    },
+    {
+      "id": "alex-marinov",
+      "name": "Alex Marinov",
+      "clubId": "ManastirskiLivadi",
+      "specialty": "Yoga"
+    }
+  ],
+  "classes": [
+    {
+      "id": "group-PeyoYavorov",
+      "name": "Bodyweight foundations",
+      "trainerId": "mira-ivanova",
+      "days": [
+        1,
+        3,
+        5
+      ],
+      "time": "08:00",
+      "minutes": 50,
+      "capacity": 12,
+      "personal": false,
+      "description": "A coached calisthenics session. Bring water and clean indoor shoes."
+    },
+    {
+      "id": "pt-PeyoYavorov",
+      "name": "Personal training",
+      "trainerId": "mira-ivanova",
+      "days": [
+        2,
+        4,
+        6
+      ],
+      "time": "15:00",
+      "minutes": 60,
+      "capacity": 1,
+      "personal": true,
+      "description": "A one-to-one session tailored to your goals."
+    },
+    {
+      "id": "group-DryRiver",
+      "name": "Barbell fundamentals",
+      "trainerId": "stefan-petrov",
+      "days": [
+        2,
+        4,
+        6
+      ],
+      "time": "18:00",
+      "minutes": 50,
+      "capacity": 13,
+      "personal": false,
+      "description": "A coached strength session. Bring water and clean indoor shoes."
+    },
+    {
+      "id": "pt-DryRiver",
+      "name": "Personal training",
+      "trainerId": "stefan-petrov",
+      "days": [
+        2,
+        4,
+        6
+      ],
+      "time": "15:00",
+      "minutes": 60,
+      "capacity": 1,
+      "personal": true,
+      "description": "A one-to-one session tailored to your goals."
+    },
+    {
+      "id": "group-NDK",
+      "name": "Lunch break mobility",
+      "trainerId": "elena-georgieva",
+      "days": [
+        1,
+        3,
+        5
+      ],
+      "time": "12:15",
+      "minutes": 50,
+      "capacity": 14,
+      "personal": false,
+      "description": "A coached mobility session. Bring water and clean indoor shoes."
+    },
+    {
+      "id": "pt-NDK",
+      "name": "Personal training",
+      "trainerId": "elena-georgieva",
+      "days": [
+        2,
+        4,
+        6
+      ],
+      "time": "15:00",
+      "minutes": 60,
+      "capacity": 1,
+      "personal": true,
+      "description": "A one-to-one session tailored to your goals."
+    },
+    {
+      "id": "group-Mladost",
+      "name": "Circuit training",
+      "trainerId": "viktor-kolev",
+      "days": [
+        2,
+        4,
+        0
+      ],
+      "time": "17:30",
+      "minutes": 50,
+      "capacity": 15,
+      "personal": false,
+      "description": "A coached conditioning session. Bring water and clean indoor shoes."
+    },
+    {
+      "id": "pt-Mladost",
+      "name": "Personal training",
+      "trainerId": "viktor-kolev",
+      "days": [
+        2,
+        4,
+        6
+      ],
+      "time": "15:00",
+      "minutes": 60,
+      "capacity": 1,
+      "personal": true,
+      "description": "A one-to-one session tailored to your goals."
+    },
+    {
+      "id": "group-Lulin",
+      "name": "Strength lab",
+      "trainerId": "nia-dimitrova",
+      "days": [
+        1,
+        4,
+        6
+      ],
+      "time": "09:30",
+      "minutes": 50,
+      "capacity": 16,
+      "personal": false,
+      "description": "A coached powerlifting session. Bring water and clean indoor shoes."
+    },
+    {
+      "id": "pt-Lulin",
+      "name": "Personal training",
+      "trainerId": "nia-dimitrova",
+      "days": [
+        2,
+        4,
+        6
+      ],
+      "time": "15:00",
+      "minutes": 60,
+      "capacity": 1,
+      "personal": true,
+      "description": "A one-to-one session tailored to your goals."
+    },
+    {
+      "id": "group-ManastirskiLivadi",
+      "name": "Evening flow",
+      "trainerId": "alex-marinov",
+      "days": [
+        2,
+        3,
+        0
+      ],
+      "time": "18:30",
+      "minutes": 50,
+      "capacity": 17,
+      "personal": false,
+      "description": "A coached yoga session. Bring water and clean indoor shoes."
+    },
+    {
+      "id": "pt-ManastirskiLivadi",
+      "name": "Personal training",
+      "trainerId": "alex-marinov",
+      "days": [
+        2,
+        4,
+        6
+      ],
+      "time": "15:00",
+      "minutes": 60,
+      "capacity": 1,
+      "personal": true,
+      "description": "A one-to-one session tailored to your goals."
+    }
+  ],
+  "events": [
+    {
+      "name": "South Park club run",
+      "place": "South Park entrance, Sofia",
+      "weekday": 6,
+      "weekOfMonth": 1,
+      "time": "09:00",
+      "description": "Meet members from all six clubs for a guided outdoor run."
+    },
+    {
+      "name": "Open platform night",
+      "place": "Lulin club",
+      "weekday": 5,
+      "weekOfMonth": 2,
+      "time": "18:00",
+      "description": "A members’ lifting meetup with technique demonstrations."
+    },
+    {
+      "name": "Vitosha trail morning",
+      "place": "Boyana trailhead, Sofia",
+      "weekday": 0,
+      "weekOfMonth": 3,
+      "time": "08:30",
+      "description": "Join the coaching team for a social trail walk."
+    }
+  ],
+  "plans": [
+    {
+      "id": "standard",
+      "name": "Standard",
+      "description": "Gym floor and changing facilities at all six clubs.",
+      "monthlyRates": [
+        80,
+        65,
+        40
+      ],
+      "groupAccess": false,
+      "credits": 0
+    },
+    {
+      "id": "premium",
+      "name": "Premium",
+      "description": "Gym access plus trainer-led group classes.",
+      "monthlyRates": [
+        120,
+        105,
+        90
+      ],
+      "groupAccess": true,
+      "credits": 0
+    },
+    {
+      "id": "diamond",
+      "name": "Diamond",
+      "description": "Group classes, gym access and the recovery area.",
+      "monthlyRates": [
+        200,
+        180,
+        160
+      ],
+      "groupAccess": true,
+      "credits": 0
+    },
+    {
+      "id": "pt1",
+      "name": "Single coaching session",
+      "description": "One 60-minute personal training session.",
+      "monthlyRates": [
+        45
+      ],
+      "groupAccess": false,
+      "credits": 1
+    },
+    {
+      "id": "pt5",
+      "name": "Five coaching sessions",
+      "description": "Five 60-minute personal training sessions.",
+      "monthlyRates": [
+        200
+      ],
+      "groupAccess": false,
+      "credits": 5
+    }
+  ]
+}
